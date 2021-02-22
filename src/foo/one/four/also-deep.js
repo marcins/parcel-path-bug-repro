@@ -1,0 +1,1 @@
+export const doTheThing = (str) => console.log(`String this: ${str}`);

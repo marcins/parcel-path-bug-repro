@@ -1,0 +1,7 @@
+{
+    "name": "@foo/entries",
+    "module": "index.js",
+    "dependencies": {
+        "@foo/common": "^1.0.0"
+    }
+}

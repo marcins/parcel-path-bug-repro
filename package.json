@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "clean": "trash -f build",
-    "build": "parcel build --no-scope-hoist --no-minify --dist-dir build/assets --public-url http://localhost:8000/build/assets src/packages/entry/entry-a.js src/foo/entry-b.js",
+    "build": "parcel build --no-scope-hoist --no-optimize --dist-dir build/assets --public-url http://localhost:8000/build/assets src/packages/entry/entry-a.js src/foo/entry-b.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "http-server ."
   },
@@ -16,8 +16,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@atlassian/parcel": "^2.0.0-frontbucket.64",
-    "http-server": "^0.12.3"
+    "http-server": "^0.12.3",
+    "parcel": "^2.0.0-nightly.606"
   },
   "targets": {
     "default": {
